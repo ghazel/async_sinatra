@@ -35,7 +35,7 @@ Currently, supporting servers include:
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rack>, [">= 1.2.1"])
+      s.add_runtime_dependency(%q<rack>, [">= 1.1.2"])
       s.add_runtime_dependency(%q<sinatra>, [">= 1.0"])
       s.add_development_dependency(%q<minitest>, [">= 2.0.2"])
       s.add_development_dependency(%q<rubyforge>, [">= 2.0.4"])
@@ -47,7 +47,7 @@ Currently, supporting servers include:
       s.add_development_dependency(%q<eventmachine>, [">= 0.12.11"])
       s.add_development_dependency(%q<hoe>, [">= 2.9.1"])
     else
-      s.add_dependency(%q<rack>, [">= 1.2.1"])
+      s.add_dependency(%q<rack>, [">= 1.1.2"])
       s.add_dependency(%q<sinatra>, [">= 1.0"])
       s.add_dependency(%q<minitest>, [">= 2.0.2"])
       s.add_dependency(%q<rubyforge>, [">= 2.0.4"])
@@ -60,7 +60,7 @@ Currently, supporting servers include:
       s.add_dependency(%q<hoe>, [">= 2.9.1"])
     end
   else
-    s.add_dependency(%q<rack>, [">= 1.2.1"])
+    s.add_dependency(%q<rack>, [">= 1.1.2"])
     s.add_dependency(%q<sinatra>, [">= 1.0"])
     s.add_dependency(%q<minitest>, [">= 2.0.2"])
     s.add_dependency(%q<rubyforge>, [">= 2.0.4"])
